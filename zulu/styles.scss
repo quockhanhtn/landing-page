@@ -1,0 +1,89 @@
+// variables
+$gray-dark: #272e35;
+$primary-color: #579aff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #262e36;
+  line-height: 1.5;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  color: $gray-dark;
+  padding: 20px 45px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  line-height: normal;
+
+  &--primary {
+    color: white;
+    background-color: $primary-color;
+  }
+}
+
+.header {
+  padding-top: 43px;
+  display: flex;
+  align-items: center;
+
+  &-logo {
+    display: block;
+    margin-right: 120px;
+  }
+
+  &-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  &-menu-item:not(:first-child) {
+    margin-left: 75px;
+  }
+
+  &-menu-link {
+    color: $gray-dark;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &-auth {
+    margin-left: auto;
+  }
+}
