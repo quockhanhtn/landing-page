@@ -1,0 +1,33 @@
+.header {
+  padding-top: 43px;
+  display: flex;
+  align-items: center;
+
+  &-logo {
+    display: block;
+    margin-right: 120px;
+  }
+
+  &-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  &-menu-item:not(:first-child) {
+    margin-left: 75px;
+  }
+
+  &-menu-link {
+    color: $gray-dark;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &-auth {
+    margin-left: auto;
+  }
+}

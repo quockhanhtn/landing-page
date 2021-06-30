@@ -18,7 +18,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: #262e36;
-  line-height: 1.5;
+  line-height: 1;
   background-color: white;
 }
 
@@ -48,6 +48,10 @@ body {
   color: white;
   background-color: #579aff;
 }
+.button--outline {
+  border: 1px solid;
+  color: #a5b2c3;
+}
 
 .header {
   padding-top: 43px;
@@ -75,6 +79,37 @@ body {
 }
 .header-auth {
   margin-left: auto;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.banner-info {
+  width: 35%;
+}
+.banner-image {
+  width: 65%;
+  transform: translateX(50px);
+}
+.banner-heading {
+  font-size: 55px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+.banner-heading span {
+  display: block;
+}
+.banner-desc {
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.banner-links .button:first-child {
+  margin-right: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
