@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +20,7 @@ body {
   color: #262e36;
   line-height: 1;
   background-color: white;
+  color: $gray-dark;
 }
 
 .wrapper {
@@ -53,5 +53,49 @@ body {
   &--outline {
     border: 1px solid;
     color: $gray-light;
+  }
+}
+
+.block {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 85px;
+
+  &-caption {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  &-caption::before {
+    left: 0;
+    transform: translate(-100%, -50%);
+  }
+  &-caption::after {
+    right: 0;
+    transform: translate(100%, -50%);
+  }
+
+  &-caption::before,
+  &-caption::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: $primary-color;
+    top: 50%;
+  }
+
+  &-heading {
+    line-height: 1.4;
+    font-size: 40px;
+    span {
+      display: block;
+    }
   }
 }
