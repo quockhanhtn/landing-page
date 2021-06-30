@@ -91,11 +91,35 @@ body {
     top: 50%;
   }
 
+  &-caption--left {
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+  &-caption--left::before {
+    transform: none;
+  }
+
+  &-caption--left::after {
+    display: none;
+  }
+
   &-heading {
     line-height: 1.4;
     font-size: 40px;
+    font-weight: 650;
     span {
       display: block;
     }
   }
+}
+
+.block--left {
+  display: block;
+  text-align: left;
+}
+
+.text-desc {
+  font-weight: 300;
+  line-height: 1.5;
+  color: #868d93;
 }

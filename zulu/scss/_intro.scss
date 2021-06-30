@@ -1,0 +1,19 @@
+.intro {
+  display: flex;
+  align-items: center;
+  padding-top: 110px;
+  padding-bottom: 160px;
+
+  & > * {
+    width: 50%;
+  }
+
+  &-content {
+    padding-right: 130px;
+  }
+
+  &-desc {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
