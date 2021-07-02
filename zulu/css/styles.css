@@ -239,6 +239,7 @@ body {
 
 .plan {
   padding-top: 50px;
+  padding-bottom: 160px;
 }
 .plan-list {
   display: flex;
@@ -319,6 +320,66 @@ body {
   margin: auto auto 0;
   display: block;
   width: max-content;
+}
+
+.client {
+  padding-bottom: 165px;
+}
+.client-list {
+  display: flex;
+}
+.client-item {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 45px 25px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  transition: all 0.2s linear;
+}
+.client-item:hover {
+  border-color: transparent;
+  box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.09);
+}
+.client-item:not(:first-child) {
+  margin-left: 70px;
+}
+.client-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 100rem;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.client-name {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.client-position {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #eee;
+}
+.client-content {
+  line-height: 1.8;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.client-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-rate i {
+  margin: 0 5px;
+  color: #ffcb46;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
