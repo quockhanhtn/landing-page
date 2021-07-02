@@ -382,4 +382,36 @@ body {
   font-size: 20px;
 }
 
+.started {
+  max-width: 900px;
+  margin: 100px auto 50px;
+  border-radius: 30px;
+  background-color: #fbfbfb;
+  padding: 60px 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.started-block {
+  margin-bottom: 30px;
+}
+.started-desc {
+  margin-bottom: 50px;
+  max-width: 245px;
+  color: #272e35;
+}
+.started-comment {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.started-smile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
 /*# sourceMappingURL=styles.css.map */
