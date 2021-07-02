@@ -38,6 +38,11 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  display: inline-block;
+  cursor: pointer;
+}
+
 .button {
   display: inline-block;
   font-size: 16px;
@@ -127,4 +132,16 @@ body {
   font-weight: 300;
   line-height: 1.5;
   color: #868d93;
+}
+
+.bg--google {
+  background-color: #ff7979;
+}
+
+.bg--twitter {
+  background-color: #79afff;
+}
+
+.bg--instagram {
+  background-color: #ffb979;
 }
