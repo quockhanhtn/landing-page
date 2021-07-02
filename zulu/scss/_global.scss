@@ -145,3 +145,42 @@ body {
 .bg--instagram {
   background-color: #ffb979;
 }
+
+@media screen and (max-width: 767px) {
+  .button {
+    padding: 10px 20px;
+  }
+
+  .logo-image {
+    max-width: 90px;
+  }
+
+  .block {
+    margin-bottom: 55px;
+  
+    &-caption {
+      margin-bottom: 25px;
+      font-size: 14px;
+    }
+  
+    &-caption::before,
+    &-caption::after {
+      width: 25px;
+    }
+  
+    &-caption--left {
+      margin-bottom: 10px;
+      padding-left: 30px;
+    }
+  
+    &-heading {
+      font-size: 35px;
+      font-weight: 620;
+    }
+  }
+}
+
+section:not(:nth-child(2), :nth-child(3),:nth-child(4)),
+footer {
+  display: none !important;
+}

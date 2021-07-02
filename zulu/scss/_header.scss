@@ -29,4 +29,29 @@
   &-auth {
     margin-left: auto;
   }
+
+  @media screen and (max-width: 1279px) {
+    > .logo {
+      margin-right: 0px;
+    }
+    &-menu {
+      margin: 0 auto;
+    }
+    &-auth {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    &-menu {
+      display: none;
+    }
+    &-auth {
+      margin-left: auto;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    padding-top: 20px;
+  }
 }
