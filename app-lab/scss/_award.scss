@@ -1,0 +1,31 @@
+.award {
+  padding: 140px 50px 190px;
+  text-align: center;
+  &-heading {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+  &-desc {
+    max-width: 630px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 90px;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px 85px;
+  }
+  &-item {
+    &-title {
+      padding-top: 35px;
+      padding-bottom: 20px;
+    }
+    &-desc {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}

@@ -76,7 +76,7 @@ body {
 .btn {
   font-size: 16px;
   padding: 20px 40px;
-  border-radius: 20px;
+  border-radius: 100rem;
   display: inline-block;
   border: 1px solid transparent;
 }
@@ -144,6 +144,21 @@ body {
 }
 .icon--green {
   background-color: #e4ffee;
+}
+.icon--cyan {
+  background-color: #eaf9ff;
+}
+.icon--orange {
+  background-color: #fdeee4;
+}
+.icon--yellow {
+  background-color: #fff6d3;
+}
+.icon--purple {
+  background-color: #f4f4ff;
+}
+.icon--gray {
+  background-color: #f5f7fa;
 }
 
 .header {
@@ -297,6 +312,52 @@ body {
 }
 .jackpot-item-desc {
   font-size: 16px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 120px;
+  padding-bottom: 75px;
+}
+.intro-content {
+  margin: auto;
+  padding-right: 100px;
+}
+.intro-desc {
+  padding-top: 30px;
+  padding-bottom: 36px;
+  font-size: 16px;
+}
+
+.award {
+  padding: 140px 50px 190px;
+  text-align: center;
+}
+.award-heading {
+  margin: 0 auto;
+  max-width: 450px;
+}
+.award-desc {
+  max-width: 630px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-bottom: 90px;
+}
+.award-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 70px 85px;
+}
+.award-item-title {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+.award-item-desc {
+  font-size: 16px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

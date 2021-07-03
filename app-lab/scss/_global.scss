@@ -16,7 +16,7 @@ body {
 .btn {
   font-size: 16px;
   padding: 20px 40px;
-  border-radius: 20px;
+  border-radius: 100rem;
   display: inline-block;
   border: 1px solid transparent;
   &--primary {
@@ -85,5 +85,20 @@ body {
   }
   &--green {
     background-color: $color-green-light;
+  }
+  &--cyan{
+    background-color: $color-cyan-light;
+  }
+  &--orange{
+    background-color: $color-orange-light;
+  }
+  &--yellow{
+    background-color: $color-yellow-light;
+  }
+  &--purple{
+    background-color: $color-purple-light;
+  }
+  &--gray{
+    background-color: $color-gray-light;
   }
 }

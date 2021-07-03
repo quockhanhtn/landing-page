@@ -1,0 +1,15 @@
+.intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 120px;
+  padding-bottom: 75px;
+  &-content{
+    margin: auto;
+    padding-right: 100px;
+  }
+  &-desc{
+    padding-top: 30px;
+    padding-bottom: 36px;
+    font-size: 16px;
+  }
+}
