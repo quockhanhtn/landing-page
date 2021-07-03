@@ -1,0 +1,14 @@
+.company {
+  padding-top: 120px;
+  padding-bottom: 180px;
+  &-text {
+    padding-bottom: 28px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}

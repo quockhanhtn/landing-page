@@ -1,0 +1,32 @@
+.feature {
+  display: flex;
+  justify-content: space-between;
+  &-image {
+    width: 50%;
+    margin-right: 100px;
+    transform: scale(1.1) translateX(-10%);
+    object-fit: scale-down;
+  }
+  &-content {
+    width: 50%;
+    padding-right: 80px;
+  }
+  &-desc {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  &-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 32px;
+    margin-bottom: 35px;
+    &-icon {
+      margin: auto auto 0;
+    }
+    &-content {
+      &-desc {
+        font-size: 16px;
+      }
+    }
+  }
+}

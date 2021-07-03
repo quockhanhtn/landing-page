@@ -1,0 +1,89 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+  color: $color-text-primary;
+  background-color: $color-white;
+}
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.btn {
+  font-size: 16px;
+  padding: 20px 40px;
+  border-radius: 20px;
+  display: inline-block;
+  border: 1px solid transparent;
+  &--primary {
+    font-weight: 700;
+    background-color: $color-primary;
+    color: $color-white;
+  }
+  &--secondary {
+    font-weight: 400;
+    background-color: transparent;
+    color: $color-primary;
+    transition: all 0.2s linear;
+  }
+  &--secondary:hover {
+    border: 1px solid $color-primary;
+  }
+}
+.text {
+  &-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  &-primary {
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+  }
+  &-secondary {
+    line-height: 1.5;
+    color: $color-text-secondary;
+    font-size: 18px;
+    text-align: justify;
+  }
+  &--red {
+    color: $color-red;
+  }
+  &--blue {
+    color: $color-blue;
+  }
+  &--green {
+    color: $color-green;
+  }
+}
+
+.icon {
+  display: inline-block;
+  border-radius: 100rem;
+  padding: 10px;
+  & > img,
+  i {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    line-height: 1;
+    object-fit: contain;
+  }
+
+  &--red {
+    background-color: $color-red-light;
+  }
+  &--blue {
+    background-color: $color-blue-light;
+  }
+  &--green {
+    background-color: $color-green-light;
+  }
+}
