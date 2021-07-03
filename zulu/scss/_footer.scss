@@ -3,16 +3,13 @@
   grid-template-columns: 2.4fr 1fr 1fr 1fr;
   grid-column-gap: 20px;
   padding-bottom: 80px;
-
   &-desc {
     color: $gray-dark;
     margin: 30px 0;
     max-width: 250px;
   }
-
   &-social {
     display: inline-flex;
-
     &-link {
       width: 40px;
       height: 40px;
@@ -26,13 +23,11 @@
       margin-left: 15px;
     }
   }
-
   &-heading {
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 32px;
   }
-
   &-link-item {
     margin-bottom: 30px;
     font-size: 16px;
@@ -42,9 +37,15 @@
     display: block;
     font-size: 14px;
   }
-
   @media screen and (max-width: 767px) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
+
+    &-column {
+      text-align: center;
+    }
+    &-desc {
+      max-width: unset;
+    }
   }
 }

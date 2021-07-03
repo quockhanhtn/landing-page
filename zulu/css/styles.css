@@ -281,7 +281,7 @@ body {
     padding-top: 30px;
   }
   .banner-heading {
-    font-size: 30px;
+    font-size: 40px;
   }
   .banner > * {
     width: 100%;
@@ -368,6 +368,12 @@ body {
     width: 100%;
   }
 }
+@media screen and (max-width: 767px) {
+  .work {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+}
 @media screen and (max-width: 479px) {
   .work-list {
     grid-auto-columns: 80%;
@@ -377,8 +383,8 @@ body {
 .intro {
   display: flex;
   align-items: center;
-  padding-top: 110px;
-  padding-bottom: 160px;
+  padding-top: 90px;
+  padding-bottom: 150px;
 }
 .intro > * {
   width: 50%;
@@ -390,6 +396,11 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding-bottom: 90px;
+  }
+}
 @media screen and (max-width: 1023px) {
   .intro-content {
     padding-right: 20px;
@@ -397,8 +408,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .intro {
-    padding: 10px 0 50px;
+    padding: 75px 0;
     display: block;
+  }
+  .intro > * {
+    width: 100%;
+    padding: 0 20px;
   }
   .intro span {
     display: unset;
@@ -410,9 +425,9 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .intro > * {
-    width: 100%;
-    padding: 0 20px;
+  .intro-image {
+    max-width: 75%;
+    margin: 0 auto;
   }
 }
 
@@ -502,6 +517,11 @@ body {
   display: block;
   width: max-content;
 }
+@media screen and (max-width: 1279px) {
+  .plan {
+    padding-bottom: 100px;
+  }
+}
 @media screen and (max-width: 1023px) {
   .plan-list {
     padding-left: 20px;
@@ -538,7 +558,7 @@ body {
 }
 
 .client {
-  padding-bottom: 165px;
+  padding-bottom: 150px;
 }
 .client-list {
   display: flex;
@@ -598,6 +618,11 @@ body {
   color: #ffcb46;
   font-size: 20px;
 }
+@media screen and (max-width: 1279px) {
+  .client {
+    padding-bottom: 100px;
+  }
+}
 @media screen and (max-width: 1023px) {
   .client-list {
     padding-left: 20px;
@@ -630,6 +655,11 @@ body {
     margin-left: 20px;
   }
 }
+@media screen and (max-width: 767px) {
+  .client {
+    padding-bottom: 25px;
+  }
+}
 @media screen and (max-width: 479px) {
   .client-list {
     grid-auto-columns: 80%;
@@ -638,7 +668,7 @@ body {
 
 .started {
   max-width: 900px;
-  margin: 100px auto 50px;
+  margin: 100px auto 160px;
   border-radius: 30px;
   background-color: #fbfbfb;
   padding: 60px 30px;
@@ -746,6 +776,12 @@ body {
   .footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
+  }
+  .footer-column {
+    text-align: center;
+  }
+  .footer-desc {
+    max-width: unset;
   }
 }
 

@@ -1,12 +1,10 @@
 .plan {
   padding-top: 50px;
   padding-bottom: 160px;
-
   &-list {
     display: flex;
     justify-content: space-between;
   }
-
   &-item {
     border: 1px solid #eee;
     border-radius: 20px;
@@ -17,20 +15,17 @@
     position: relative;
     transition: all 0.2s linear;
   }
-  
   @media (hover: hover) {
     &-item:hover {
       border-color: transparent;
       box-shadow: 0 0 50px 10px rgba($color: #000000, $alpha: 0.09);
     }
-
     &-item:hover &-start {
       border-color: $primary-color;
       background-color: $primary-color;
       color: white;
     }
   }
-
   &-label {
     position: absolute;
     top: 0;
@@ -42,20 +37,17 @@
     border-radius: 0 20px;
     font-size: 14px;
   }
-
   &-name {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 25px;
   }
-
   &-price {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 30px;
     padding-bottom: 40px;
     border-bottom: 1px solid #eee;
-
     &-symbol {
       vertical-align: top;
     }
@@ -64,17 +56,14 @@
       font-weight: 600;
     }
   }
-
   &-desc {
     margin-bottom: 55px;
   }
-
   &-feature {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 35px;
   }
-
   &-feature-item {
     display: flex;
     align-items: center;
@@ -82,22 +71,21 @@
     margin-bottom: 25px;
     font-weight: 300;
   }
-
   &-feature-item:last-of-type {
     margin-bottom: 75px;
   }
-
   &-feature-icon {
     font-size: 20px;
     margin-right: 10px;
   }
-
   &-start {
     margin: auto auto 0;
     display: block;
     width: max-content;
   }
-
+  @media screen and (max-width: 1279px) {
+    padding-bottom: 100px;
+  }
   @media screen and (max-width: 1023px) {
     &-list {
       padding-left: 20px;
@@ -123,15 +111,12 @@
         scroll-snap-align: start;
       }
     }
-
     &-item {
       width: 100%;
     }
   }
-
   @media screen and (max-width: 767px) {
   }
-
   @media screen and (max-width: 479px) {
     &-list {
       grid-auto-columns: 80%;

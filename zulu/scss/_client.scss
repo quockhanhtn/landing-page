@@ -1,5 +1,5 @@
 .client {
-  padding-bottom: 165px;
+  padding-bottom: 150px;
   &-list {
     display: flex;
   }
@@ -11,14 +11,12 @@
     border-radius: 20px;
     transition: all 0.2s linear;
   }
-
   @media (hover: hover) {
     &-item:hover {
       border-color: transparent;
       box-shadow: 0 0 50px 10px rgba($color: #000000, $alpha: 0.09);
     }
   }
-
   &-item:not(:first-child) {
     margin-left: 70px;
   }
@@ -60,7 +58,9 @@
       font-size: 20px;
     }
   }
-
+  @media screen and (max-width: 1279px) {
+    padding-bottom: 100px;
+  }
   @media screen and (max-width: 1023px) {
     &-list {
       padding-left: 20px;
@@ -86,16 +86,16 @@
         scroll-snap-align: start;
       }
     }
-
     &-item {
       width: 100%;
     }
-
     &-item:not(:first-child) {
       margin-left: 20px;
     }
   }
-
+  @media screen and (max-width: 767px) {
+    padding-bottom: 25px;
+  }
   @media screen and (max-width: 479px) {
     &-list {
       grid-auto-columns: 80%;

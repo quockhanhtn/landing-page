@@ -3,20 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 img {
   display: block;
   max-width: 100%;
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   list-style: none;
 }
-
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
@@ -26,23 +22,19 @@ body {
   background-color: white;
   color: $gray-dark;
 }
-
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
 }
-
 .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
-
 .logo {
   display: inline-block;
   cursor: pointer;
 }
-
 .button {
   display: inline-block;
   font-size: 16px;
@@ -54,18 +46,15 @@ body {
   background-color: transparent;
   line-height: normal;
   transition: all 0.2s linear;
-
   &--primary {
     color: white;
     background-color: $primary-color;
   }
-
   &--outline {
     border: 1px solid;
     color: $gray-light;
   }
 }
-
 .block {
   text-align: center;
   display: flex;
@@ -73,7 +62,6 @@ body {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 85px;
-
   &-caption {
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -81,7 +69,6 @@ body {
     display: inline-block;
     padding: 10px;
   }
-
   &-caption::before {
     left: 0;
     transform: translate(-100%, -50%);
@@ -90,7 +77,6 @@ body {
     right: 0;
     transform: translate(100%, -50%);
   }
-
   &-caption::before,
   &-caption::after {
     content: "";
@@ -100,7 +86,6 @@ body {
     background-color: $primary-color;
     top: 50%;
   }
-
   &-caption--left {
     margin-bottom: 20px;
     padding-left: 40px;
@@ -108,11 +93,9 @@ body {
   &-caption--left::before {
     transform: none;
   }
-
   &-caption--left::after {
     display: none;
   }
-
   &-heading {
     line-height: 1.4;
     font-size: 40px;
@@ -122,57 +105,45 @@ body {
     }
   }
 }
-
 .block--left {
   display: block;
   text-align: left;
 }
-
 .text-desc {
   font-weight: 300;
   line-height: 1.5;
   color: #868d93;
 }
-
 .bg--google {
   background-color: #ff7979;
 }
-
 .bg--twitter {
   background-color: #79afff;
 }
-
 .bg--instagram {
   background-color: #ffb979;
 }
-
 @media screen and (max-width: 767px) {
   .button {
     padding: 10px 20px;
   }
-
   .logo-image {
     max-width: 90px;
   }
-
   .block {
     margin-bottom: 55px;
-  
     &-caption {
       margin-bottom: 25px;
       font-size: 14px;
     }
-  
     &-caption::before,
     &-caption::after {
       width: 25px;
     }
-  
     &-caption--left {
       margin-bottom: 10px;
       padding-left: 30px;
     }
-  
     &-heading {
       font-size: 35px;
       font-weight: 620;
