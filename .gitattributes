@@ -1,0 +1,4 @@
+'*.psd' filter=lfs diff=lfs merge=lfs -text
+E:/ProgrammingProject/Web/Frontend/landing-page/app-lab/template/Home filter=lfs diff=lfs merge=lfs -text
+page.psd filter=lfs diff=lfs merge=lfs -text
+E:/ProgrammingProject/Web/Frontend/landing-page/yoga/template/3529478.psd filter=lfs diff=lfs merge=lfs -text
