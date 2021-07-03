@@ -1,0 +1,33 @@
+.jackpot {
+  padding: 160px 50px 120px 50px;
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-heading {
+    padding-right: 85px;
+    margin-right: 45px;
+    width: 50%;
+    border-right: 1.5px solid $color-divider;
+  }
+  &-desc {
+    font-size: 16px;
+    width: 50%;
+  }
+  &-list {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 115px;
+  }
+  &-item{
+    &-title{
+      padding-top: 35px;
+      padding-bottom: 20px;
+    }
+    &-desc{
+      font-size: 16px;
+    }
+  }
+}

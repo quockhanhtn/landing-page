@@ -267,4 +267,36 @@ body {
   font-size: 16px;
 }
 
+.jackpot {
+  padding: 160px 50px 120px 50px;
+}
+.jackpot-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jackpot-heading {
+  padding-right: 85px;
+  margin-right: 45px;
+  width: 50%;
+  border-right: 1.5px solid #b9b9b8;
+}
+.jackpot-desc {
+  font-size: 16px;
+  width: 50%;
+}
+.jackpot-list {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 115px;
+}
+.jackpot-item-title {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+.jackpot-item-desc {
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=styles.css.map */
